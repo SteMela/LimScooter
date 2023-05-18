@@ -1,0 +1,78 @@
+body{
+    background-image: url(background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#sezLogo{
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 730px;
+    width: 1019px;
+    margin: auto;
+    margin-top: 30px;
+    border-radius: 3%;
+}
+
+#logo{
+    margin: auto;
+    height: 100px;
+    padding-top: 5%;
+    display: block;
+}
+
+section span{
+    padding-top: 5px;
+    margin-bottom: 5px;
+    font-size: 20px;
+    color: #00DD01;
+    text-align: center;
+    font-weight:600;
+    display: block;
+    letter-spacing: 1px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#booking{
+    background-color: #00DD01;
+    height: 30px;
+    width: 90%;
+    margin: auto;
+    padding: auto;
+}
+
+#allScooter {
+    color: white;
+    margin-left: 50px;
+    
+}
+
+.nome{
+    font-weight: 600;
+    margin-bottom: -20px;
+}
+
+div > p:first-of-type {
+    display: inline-block;
+}
+
+
+.carica-media, .carica-pieno, .carica-vuota{
+    height: 30px;
+    border-radius: 8px;
+}
+
+.carica-media{
+    background-color: orange;
+    width: 40%;
+
+}
+
+.carica-pieno{
+    background-color: green;
+    width: 70%;
+}
+
+.carica-vuota{
+    background-color: red;
+    width: 20%;
+}
